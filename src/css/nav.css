@@ -1,8 +1,8 @@
 .nav-container {
   display: none;
-  position: fixed;
-  top: var(--height-navbar);
-  left: 0;
+  /* position: fixed;
+  top: var(--height-navbar); */
+  /* left: 0; */
   width: 100%;
   font-size: 0.9375rem;
   z-index: var(--z-index-nav);
@@ -30,10 +30,8 @@
 }
 
 .nav {
-  background-color: #fafafa;
+  background-color: var(--sidebar-bg);
   position: relative;
-  top: var(--height-toolbar);
-  height: var(--height-nav-mobile);
 }
 
 @media screen and (min-width: 769px) {
@@ -44,17 +42,15 @@
 
 @media screen and (min-width: 1024px) {
   .nav {
-    top: var(--height-navbar);
     box-shadow: none;
     position: sticky;
-    height: var(--height-nav);
+    height: 100vh;
   }
 }
 
 .nav .panels {
   display: flex;
   flex-direction: column;
-  height: inherit;
 }
 
 html.is-clipped--nav {
@@ -130,7 +126,7 @@ html.is-clipped--nav {
 }
 
 /* matches list without a title */
-.nav-item[data-depth="0"] > .nav-list:first-child {
+.nav-item[data-depth='0'] > .nav-list:first-child {
   display: block;
   margin: 0;
 }

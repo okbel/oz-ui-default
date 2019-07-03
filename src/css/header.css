@@ -2,20 +2,14 @@ html.is-clipped--navbar {
   overflow-y: hidden;
 }
 
-body {
-  padding-top: var(--height-navbar);
-}
-
 .navbar {
   background-color: var(--color-navbar-bg);
   color: var(--color-navbar-text);
   font-size: 0.83333rem;
-  height: var(--height-navbar);
-  position: fixed;
-  top: 0;
   width: 100%;
   word-wrap: break-word;
   z-index: var(--z-index-navbar);
+  border-bottom: solid 1px #f7f7f8;
 }
 
 .navbar a {
@@ -136,6 +130,13 @@ body {
   flex: none;
 }
 
+.navbar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4rem;
+}
+
 .navbar-item.has-dropdown {
   padding: 0;
 }
@@ -219,7 +220,7 @@ body {
   .navbar-link::after {
     border-width: 0 0 1px 1px;
     border-style: solid;
-    content: " ";
+    content: ' ';
     display: block;
     height: 0.5em;
     pointer-events: none;
