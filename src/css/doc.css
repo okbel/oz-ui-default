@@ -1,13 +1,13 @@
 .doc {
   margin: 0 auto;
   max-width: var(--width-doc-mobile);
-  padding: 0 1rem 4rem;
+  padding: 0 1.5rem 4rem;
   color: #333;
 }
 
 @media screen and (min-width: 1024px) {
   .doc {
-    margin: 0 2rem;
+    margin: 0 1rem;
     max-width: var(--width-doc);
   }
 }
@@ -50,7 +50,7 @@
 .doc h4 > a.anchor::before,
 .doc h5 > a.anchor::before,
 .doc h6 > a.anchor::before {
-  content: "\00a7";
+  content: '\00a7';
 }
 
 .doc h1:hover > a.anchor,
@@ -371,11 +371,11 @@
 }
 
 .doc ul.checklist i.fa-check-square-o::before {
-  content: "\2713";
+  content: '\2713';
 }
 
 .doc ul.checklist i.fa-square-o::before {
-  content: "\274f";
+  content: '\274f';
 }
 
 .doc .dlist .dlist,
@@ -498,7 +498,7 @@
   border: 1px solid #404040;
   border-radius: 100%;
   display: inline-block;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.75rem;
   font-style: normal;
   height: 1.25em;
@@ -531,12 +531,12 @@ b.button {
 }
 
 b.button::before {
-  content: "[";
+  content: '[';
   padding-right: 0.25em;
 }
 
 b.button::after {
-  content: "]";
+  content: ']';
   padding-left: 0.25em;
 }
 
@@ -558,7 +558,7 @@ kbd,
 }
 
 .keyseq {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
 }
 
@@ -575,6 +575,6 @@ kbd,
 }
 
 .menuseq i.caret::before {
-  content: ">";
+  content: '>';
   font-weight: 500;
 }

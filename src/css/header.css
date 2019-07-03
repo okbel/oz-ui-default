@@ -9,7 +9,8 @@ html.is-clipped--navbar {
   width: 100%;
   word-wrap: break-word;
   z-index: var(--z-index-navbar);
-  border-bottom: solid 1px #f7f7f8;
+  border-bottom: solid 1px #e2e2e7;
+  height: 70px;
 }
 
 .navbar a {
@@ -34,8 +35,7 @@ html.is-clipped--navbar {
 
   .navbar-end > a.navbar-item:hover,
   .navbar-end .navbar-link:hover {
-    background-color: var(--color-navbar-bg-focus);
-    color: var(--color-navbar-text);
+    color: var(--color-navbar-hover);
   }
 
   .navbar-end .navbar-link::after {
@@ -134,7 +134,7 @@ html.is-clipped--navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 4rem;
+  padding: 0 2.5rem;
 }
 
 .navbar-item.has-dropdown {

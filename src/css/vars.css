@@ -1,7 +1,7 @@
 :root {
   --color-text: #3d3d58;
   --color-navbar-bg: #fff;
-  --color-navbar-bg-focus: #000;
+  --color-navbar-hover: hsl(240, 18%, 70%);
   --color-navbar-text: hsl(240, 18%, 29%);
   --sidebar-bg: #f8f8fa;
   --height-navbar: 3.25rem;

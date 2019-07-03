@@ -45,6 +45,10 @@
     box-shadow: none;
     position: sticky;
     height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 307px;
   }
 }
 
@@ -88,7 +92,6 @@ html.is-clipped--nav {
   flex-grow: 1;
   min-height: 0;
   width: 100%;
-  padding: 0.5rem 0.75rem;
   line-height: 1.35;
   position: relative;
 }
@@ -102,8 +105,12 @@ html.is-clipped--nav {
 }
 
 .nav-menu a,
-.nav-menu a:visited {
+.nav-menu a :visited {
   color: inherit;
+}
+
+.nav-menu > .nav-list {
+  padding: 2rem;
 }
 
 .nav-list {
@@ -133,6 +140,16 @@ html.is-clipped--nav {
 
 .nav-item:not(.is-active) > .nav-list {
   display: none;
+}
+
+.navbar__search {
+  width: 100%;
+  border: none;
+  font-size: 0.8rem;
+  background: transparent;
+  padding: 0 2rem;
+  border-bottom: solid 1px #e2e2e7;
+  height: 70px;
 }
 
 .nav-item-toggle {

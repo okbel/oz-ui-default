@@ -1,7 +1,7 @@
 .breadcrumbs {
   display: none;
   flex: 1 1;
-  padding: 0 0.5rem 0 0.75rem;
+  padding: 0 2.5rem;
   line-height: 1.35;
   hyphens: none;
 }
@@ -30,7 +30,7 @@ a + .breadcrumbs {
 }
 
 .breadcrumbs li::after {
-  content: "/";
+  content: '/';
   padding: 0 0.5rem;
 }
 
