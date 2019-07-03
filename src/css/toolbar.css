@@ -7,7 +7,6 @@
   font-size: 0.75rem;
   height: var(--height-toolbar);
   justify-content: flex-start;
-  position: sticky;
   top: var(--height-navbar);
   z-index: var(--z-index-toolbar);
 }

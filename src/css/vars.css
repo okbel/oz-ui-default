@@ -1,8 +1,9 @@
 :root {
-  --color-text: #222;
-  --color-navbar-bg: #0a0a0a;
+  --color-text: #3d3d58;
+  --color-navbar-bg: #fff;
   --color-navbar-bg-focus: #000;
-  --color-navbar-text: #fff;
+  --color-navbar-text: hsl(240, 18%, 29%);
+  --sidebar-bg: #f8f8fa;
   --height-navbar: 3.25rem;
   --height-drawer: 2.5rem;
   --height-toolbar: 2.5rem;
@@ -11,7 +12,9 @@
   --height-nav: var(--height-min-body);
   --height-nav-mobile: calc(var(--height-min-body) - var(--height-toolbar));
   --height-nav-panel: calc(var(--height-nav) - var(--height-drawer));
-  --height-nav-panel-mobile: calc(var(--height-nav-mobile) - var(--height-drawer));
+  --height-nav-panel-mobile: calc(
+    var(--height-nav-mobile) - var(--height-drawer)
+  );
   --width-nav: 16rem;
   --width-doc: 54rem;
   --width-doc-mobile: 40rem;
