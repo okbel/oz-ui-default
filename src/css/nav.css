@@ -43,7 +43,6 @@
 @media screen and (min-width: 1024px) {
   .nav {
     box-shadow: none;
-    position: sticky;
     height: 100vh;
     position: fixed;
     left: 0;
@@ -111,15 +110,12 @@ html.is-clipped--nav {
 
 .nav-menu > .nav-list {
   padding: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .nav-list {
   margin: 0 0 0 0.8em;
   padding: 0;
-}
-
-.nav-menu > .nav-list {
-  margin-bottom: 0.5rem;
 }
 
 .nav-item {

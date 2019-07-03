@@ -12,9 +12,7 @@
   --height-nav: var(--height-min-body);
   --height-nav-mobile: calc(var(--height-min-body) - var(--height-toolbar));
   --height-nav-panel: calc(var(--height-nav) - var(--height-drawer));
-  --height-nav-panel-mobile: calc(
-    var(--height-nav-mobile) - var(--height-drawer)
-  );
+  --height-nav-panel-mobile: calc(var(--height-nav-mobile) - var(--height-drawer));
   --width-nav: 16rem;
   --width-doc: 54rem;
   --width-doc-mobile: 40rem;

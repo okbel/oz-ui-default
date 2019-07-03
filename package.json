@@ -2,7 +2,7 @@
   "name": "oz-ui-docs",
   "description": "OpenZeppelin Docs Antora Theme",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp preview:build"
   },
   "engines": {
     "node": ">= 8.0.0"
