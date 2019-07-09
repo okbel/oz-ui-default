@@ -2,6 +2,10 @@ html.is-clipped--navbar {
   overflow-y: hidden;
 }
 
+.header {
+  margin-bottom: 20px;
+}
+
 .navbar {
   background-color: var(--color-navbar-bg);
   color: var(--color-navbar-text);
